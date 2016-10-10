@@ -1076,7 +1076,7 @@ html[xmlns] .slides {
 	vertical-align:middle;
 }
 .flex-caption{
-	color:#fff;
+	color: #39b54a;
 	font-weight:400;
 	padding:30px;
 	width:500px;
@@ -1086,7 +1086,7 @@ html[xmlns] .slides {
 	display:none;
 }
 .flex-caption strong{
-	color:#fff;
+	color: #39b54a;
 	font-weight:400;
 	font-size:50px;
 	margin-bottom:30px;
@@ -1261,7 +1261,7 @@ body.boxed .body{
 .site-header{
 	top:0;
 	position:fixed;
-	height:72px;
+	height:85px;
 	left:0;
 	z-index:999;
 	width:100%;
@@ -1288,9 +1288,9 @@ body.boxed .body{
 	position:fixed;
 	top:0;
 	left:0;
-	height:72px;
+	height:85px;
 	z-index:1010;
-	background:rgba(204,204,204,.9);
+	background: rgba(77,77,77,0.9);
 	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.1);
 	box-shadow:0 1px 1px rgba(0,0,0,.1);
 }
@@ -1414,14 +1414,14 @@ body.boxed .body{
 
 .sticky-header .logo-text{
 	display:inline-block;
-	line-height: 63px;
+	line-height: 85px;
 	font-size:16px;
 	text-transform:uppercase;
 	/* font-weight:700; */
-	background: url("../images/logo1.png") no-repeat;
+	background: url("../images/logo5.png") no-repeat;
 	text-indent: -9999px;
 	height: 100px;
-	width: 141px;
+	width: 153px;
 }
 .logo-text {
     display: inline-block;
@@ -1429,10 +1429,10 @@ body.boxed .body{
     font-size: 16px;
     text-transform: uppercase;
     /* font-weight: 700; */
-    background: url(../images/logo1.png) no-repeat;
+    background: url("../images/logo5.png") no-repeat;
     text-indent: -9999px;
     height: 100px;
-    width: 141px;
+    width: 153px;
 }
 .logo-text > span{
 	font-weight:300;
@@ -1474,7 +1474,7 @@ body.boxed .body{
 	color:#222;
 }
 .sticky-header .main-navigation > ul > li > a {
-    color: #222!important;
+    color: #f7f4f4!important;
 }
 .main-navigation > ul > li:last-child a{
 }
@@ -1682,10 +1682,10 @@ body.boxed .body{
 	float:right;
 	font-size:20px;
 	margin-top:25px;
-	color:#fff;
+	color: #39b54a;
 }
 .background--light #menu-toggle, .header-style2 #menu-toggle, .header-style3 #menu-toggle, .header-style4 #menu-toggle, .header-style5 #menu-toggle, .sticky-header.site-header #menu-toggle{
-	color: #428bca;
+	color: #39b54a;
 }
 #canvas-animation{
 	 position:absolute;
@@ -1750,7 +1750,7 @@ body.boxed .body{
 	margin-bottom:0;
 }
 .upcoming-event-bar .counter .timer-col #days, .upcoming-event-bar .counter .timer-col #hours, .upcoming-event-bar .counter .timer-col #minutes, .upcoming-event-bar .counter .timer-col #seconds{
-	border-color:#ccc;
+	border-color: #39b54a;
 }
 .featured-block{
 	margin-bottom:20px;
