@@ -1290,7 +1290,7 @@ body.boxed .body{
 	left:0;
 	height:85px;
 	z-index:1010;
-	background:rgba(204,204,204,.9);
+	background: rgb(61, 61, 61);
 	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.1);
 	box-shadow:0 1px 1px rgba(0,0,0,.1);
 }
@@ -1474,7 +1474,7 @@ body.boxed .body{
 	color:#222;
 }
 .sticky-header .main-navigation > ul > li > a {
-    color: #222!important;
+    color: #fdfdfd!important;
 }
 .main-navigation > ul > li:last-child a{
 }
@@ -1750,7 +1750,7 @@ body.boxed .body{
 	margin-bottom:0;
 }
 .upcoming-event-bar .counter .timer-col #days, .upcoming-event-bar .counter .timer-col #hours, .upcoming-event-bar .counter .timer-col #minutes, .upcoming-event-bar .counter .timer-col #seconds{
-	border-color:#ccc;
+	border-color: #39b54a;
 }
 .featured-block{
 	margin-bottom:20px;
