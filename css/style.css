@@ -1474,7 +1474,7 @@ body.boxed .body{
 	color:#222;
 }
 .sticky-header .main-navigation > ul > li > a {
-    color: #39b54a!important;
+    color: #fdfdfd!important;
 }
 .main-navigation > ul > li:last-child a{
 }
@@ -1685,7 +1685,7 @@ body.boxed .body{
 	color:#fff;
 }
 .background--light #menu-toggle, .header-style2 #menu-toggle, .header-style3 #menu-toggle, .header-style4 #menu-toggle, .header-style5 #menu-toggle, .sticky-header.site-header #menu-toggle{
-	color: #39b54a;
+	color: #fafafa;
 }
 #canvas-animation{
 	 position:absolute;
@@ -3279,14 +3279,14 @@ ul.blog-classic-listing strong.post-title{
 		position:absolute;
 		height:auto;
 		left:0;
-		top:72px;
-		background:#fff;
-		z-index:99;
+		top: 85px;
+		background: #4f9c5a;
+		z-index: 1010;
 		overflow:auto;
 	}
 	.main-navigation ul{
 		float:none;
-		border-top:2px solid #efefef;
+		border-top: 2px solid #4f4f4f;
 	}
 	.main-navigation > ul > li{
 		display:block;
@@ -3296,7 +3296,7 @@ ul.blog-classic-listing strong.post-title{
 		display:block;
 		padding:15px 0 15px 20px;
 		line-height:normal;
-		color: #39b54a;
+		color: #151515;
 	}
 	.main-navigation > ul > li ul{
 		position:static;
