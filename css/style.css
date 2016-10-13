@@ -788,10 +788,10 @@ label {
 	color:#fff;
 }
 .social-icons-colored.inversed li.facebook a{
-	background:#3B5998;
+	background: #39b54a;
 }
 .social-icons-colored.inversed li.twitter a{
-	background:#00ACED;
+	background: #39b54a;
 }
 .social-icons-colored.inversed li.behance a{
 	background:#1769FF;
@@ -1290,7 +1290,7 @@ body.boxed .body{
 	left:0;
 	height:85px;
 	z-index:1010;
-	background: rgb(61, 61, 61);
+	background: #3d3d3d;
 	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.1);
 	box-shadow:0 1px 1px rgba(0,0,0,.1);
 }
@@ -2319,15 +2319,16 @@ ul.blog-classic-listing strong.post-title{
 	z-index:11;
 	padding:25px 0 20px;
 	text-align:center;
-	background:#fff;
+	background: #3d3d3d;
 	margin-top:20px;
 	border:1px solid #e4e4e3;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
 }
 .quick-info h4{
 	margin-bottom:5px;
 	font-size:13px;
+	color: #fff;
 }
 .quick-info p{
 	margin-bottom:0;
