@@ -1850,6 +1850,9 @@ body.boxed .body{
 	text-align:center;
 	font-size:12px;
 }
+.timer-col{
+	color:white;
+}
 .upcoming-event-footer{
 	background:#efefef;
 	padding:10px 20px;
