@@ -65,7 +65,7 @@
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #2d6ca2;
+  background-color: #399d47;
   border-color: transparent;
 }
 .btn-primary:active,
@@ -75,7 +75,7 @@
 }
 .btn-primary:disabled,
 .btn-primary[disabled] {
-  background-color: #2d6ca2;
+  background-color: #399d47;
 }
 .btn-success {
   border-color: #3e8f3e;
