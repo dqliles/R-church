@@ -198,7 +198,7 @@ h4,
 h5,
 h6{
 	margin:0 0 18px 0;
-	color:#333333;
+	color: #39b54a;
 	font-weight:400;
 	line-height:1.5em;
 	letter-spacing:1px;
@@ -235,7 +235,7 @@ h1.spaced, h2.spaced, h3.spaced, h4.spaced, h5.spaced, h6.spaced {
     margin-top: 22px;
 }
 h1 a, h2 a, h3 a, h5 a, h6 a{
-	color:#333;
+	color: #fbf8f8;
 	text-decoration:none;
 }
 .huge{
@@ -1736,7 +1736,7 @@ body.boxed .body{
 	box-shadow: none;
 }
 .upcoming-event-bar{
-	background:#efefef;
+	background: #484848;
 	padding:20px;
 	border-bottom:1px solid #eaeaea;
 }
@@ -1840,7 +1840,7 @@ body.boxed .body{
 	height:60px;
 	line-height:53px;
 	font-weight:700;
-	color:#222;
+	color: #fdfdfd;
 	font-size:16px;
 	text-align:center;
 }
