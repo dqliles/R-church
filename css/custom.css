@@ -1,8 +1,9 @@
-
+html body{
+overflow:hidden;
+}
 
 
 .wrap{
-
 min-width: 100%;
 min-height: 100%;
 position: relative;
