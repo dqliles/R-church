@@ -1,6 +1,4 @@
-html{
-overflow-x:hidden;
-}
+
 
 
 .wrap{
@@ -10,6 +8,7 @@ position: relative;
  top: 0px;
  left: 0px;
 z-index:1;
+overflow-y: visible;
 }
 
 .page-content {
@@ -20,6 +19,7 @@ z-index:1;
  bottom:0px;
  width:100%;
  z-index:1;
+ overflow-x: hidden;
  }
  
  .toggle {
