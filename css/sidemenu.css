@@ -1,0 +1,147 @@
+
+* {
+margin: 0px;
+}
+
+
+
+
+.page-content {
+	height: 750px;
+	position: relative;
+	z-index:2;
+	background-image: 
+	linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+	url('../shoot.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow:hidden;
+
+}
+
+
+
+.menu-toggle {
+	background: url("../threelines.png") no-repeat;
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+}
+
+.open {
+	background: url("../icon2.png") no-repeat;
+}	
+
+.menu {
+	overflow-x:hidden;
+	position: relative;
+	left:0;
+	
+}	
+
+.menu-open {
+	left:231px;
+}
+
+.menu-open .menu-side {
+	left:0;
+	
+}		
+
+.menu-side {
+	background-color:#333;
+	position:fixed;
+	top:0px;
+	left: 0;
+	width:210px;
+	height: 100%;
+	padding:30px;
+	
+}	
+		
+	
+	.menu-side ul {
+	list-style-type: none;
+}
+
+
+ .menu {
+	
+	-webkit-transition: left 0.9s ease;
+	-moz-transition: left 0.9s ease;
+	 transition: left 0.9s ease;
+	 
+}
+
+
+
+
+	
+	.button {
+	box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 80px;
+    font: 14px/68px 'Coda';
+   	margin-top:100px;
+    margin-left: 300px;
+    border-radius: 0;
+    color: #ffffff;
+    letter-spacing: 3px;
+    background: transparent;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    float: none;
+    
+  }
+  
+ a.button:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #66663e;
+}  
+
+
+
+h1 {
+	font-family: Coda;
+    font-size: 108px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 800;
+    font-stretch: normal;
+    line-height: 96px;
+	width: 1170px;
+	height: 192px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing:-2px;
+	padding-top: 100px;
+	margin-bottom: 24px;
+	margin-left: 300px;
+
+}
+
+ li { 
+	color: rgba(255,255,255,0.8);
+	font-family: "Ubuntu", sans-serif;
+	font-size: 16px;
+	font-size:16px;
+	margin-bottom: 16px;
+	-webkit-font-smoothing: antialiased
+	
+	
+}	
+	
+	
+	 li:hover {
+		color: rgba(255,255,255,1);
+	}	
+
+
+		
