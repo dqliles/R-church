@@ -1,5 +1,7 @@
 
-
+body {
+overflow-x: hidden;
+}
 
 .wrap{
 min-width: 100%;
