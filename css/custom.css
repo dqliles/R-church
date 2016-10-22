@@ -26,7 +26,7 @@ z-index:1;
   color: #fff;
   position: fixed;
   top: -9px;
-  right: -14px;
+  right: 1px;
   padding: 30px;
   z-index:2;
   transition: left 0.3s;
