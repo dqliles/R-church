@@ -10,7 +10,7 @@ position: relative;
  top: 0px;
  left: 0px;
 z-index:1;
-overflow-x: hidden;
+
 }
 
 .page-content {
@@ -21,6 +21,7 @@ overflow-x: hidden;
  bottom:0px;
  width:100%;
  z-index:1;
+ overflow-x: hidden;
  }
  
  .toggle {
