@@ -1476,7 +1476,7 @@ body {
 }
 
 .site-header {
-    top: 0;
+    top: 10px;
     position: absolute;
     height: 85px;
     left: 0;
