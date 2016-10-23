@@ -27,10 +27,13 @@ z-index:1;
   text-decoration: none;
   font-size: 25px;
   color: #fff;
+ background-color:#333333;
+ border-radius: 9px;
+   
   position: absolute;
-  top: -4px;
-  right: 1px;
-  padding: 30px;
+  top: 14px;
+  right: 20px;
+  padding: 9px;
   z-index:2;
   transition: left 0.3s;
   display: none;
@@ -55,7 +58,7 @@ z-index:1;
  width: 100%;
  height: 100%;
  
- background:#333;
+ background:#626262;
  z-index: 0;
  text-align: center;
  }
