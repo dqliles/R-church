@@ -62,15 +62,16 @@ z-index:1;
  
  .sidebar a {
  color: rgba(255,255,255,0.7);
- font-family:"ubuntu, sans-serif";
- font-size: 16px;
-
  -webkit-font-smoothing: antialiased;
  cursor:pointer;
  display: block;
  padding: 15px 0;
-
-border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000;
+   text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: .11142857142857em;
+    font-size: 16px;
+    font-weight:200;
  }
  
  
@@ -89,7 +90,7 @@ display: none;
 	left: 180px;
 }	
 
-#sidebartoggler:checked ~ .wrap {top: 575px;box-shadow: 0 0 5px 5px rgba(0,0,0,269.5);}
+#sidebartoggler:checked ~ .wrap {top: 361px;box-shadow: 0 0 5px 5px rgba(0,0,0,269.5);}
  
  
 #sidebartoggler + label, .wrap {
