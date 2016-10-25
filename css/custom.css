@@ -97,7 +97,7 @@ display: none;
  
  
 #sidebartoggler + label, .wrap {
-    transition: top 0.3s;
+    transition: top 0.2s;
 }
 
 .one {
