@@ -20,7 +20,9 @@ z-index:1;
  bottom:0px;
  width:100%;
  z-index:1;
- 
+-webkit-box-shadow: 0px -5px 23px -1px rgba(0,0,0,1);
+-moz-box-shadow: 0px -5px 23px -1px rgba(0,0,0,1);
+box-shadow: 0px -5px 23px -1px rgba(0,0,0,1);
  }
  
  .toggle {
@@ -93,7 +95,9 @@ display: none;
 	left: 180px;
 }	
 
-#sidebartoggler:checked ~ .wrap {top: 331px;box-shadow: 0 0 5px 5px rgba(0,0,0,269.5);}
+#sidebartoggler:checked ~ .wrap {top: 332px;-webkit-box-shadow: 0px -7px 5px 0px rgba(92,92,92,1);
+-moz-box-shadow: 0px -7px 5px 0px rgba(92,92,92,1);
+box-shadow: 0px -7px 5px 0px rgba(92,92,92,1);}
  
  
 #sidebartoggler + label, .wrap {
