@@ -97,12 +97,26 @@ display: none;
  
  
 #sidebartoggler + label, .wrap {
-    transition: top 0.5s;
+    transition: top 0.3s;
 }
 
 .one {
 margin-top:58px;
 }
+
+.mybutton {
+border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 1);
+    border: solid rgba(51, 51, 51, 1) 6px;
+    box-shadow: 1px 1px #1A1A1A, 3px 3px #1A1A1A, 5px 5px #1A1A1A, 7px 7px #1A1A1A, 9px 9px #1A1A1A;
+    transition: all 0.12s ease 0s;
+   } 
+
 
 
 
