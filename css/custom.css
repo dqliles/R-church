@@ -95,13 +95,13 @@ display: none;
 	left: 180px;
 }	
 
-#sidebartoggler:checked ~ .wrap {top: 330px;-webkit-box-shadow: 0px -7px 5px 0px rgba(92,92,92,1);
+#sidebartoggler:checked ~ .wrap {top: 354px;-webkit-box-shadow: 0px -7px 5px 0px rgba(92,92,92,1);
 -moz-box-shadow: 0px -7px 5px 0px rgba(92,92,92,1);
 box-shadow: 0px -7px 5px 0px rgba(92,92,92,1);}
  
  
 #sidebartoggler + label, .wrap {
-    transition: top 0.2s;
+    transition: top 0.4s;
 }
 
 .one {
