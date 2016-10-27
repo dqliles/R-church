@@ -190,13 +190,19 @@
                         <h4>News subscription</h4>
                         <hr class="sm">
                         <p>Subscribe to our newsletter in order to receive the latest updates and articles!</p>
-                        <div class="input-group">
-                            <span class="input-group-addon">@</span>
-                            <input type="text" class="form-control">
-                            <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">Go!</button>
-                            </span>
-                        </div>
+                        <div class="thumbnail center well well-small text-center">
+                <h2>Newsletter</h2>
+                
+                <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                
+                <form action="email_script.php" method="post">
+                    <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
+                        <input type="text" id="" name="" placeholder="your@email.com">
+                    </div>
+                    <br />
+                    <input type="submit" value="Subscribe Now!" class="btn btn-large" />
+              </form>
+            </div>
             		</div>
                	</div>
         		<!-- Quick Info -->
