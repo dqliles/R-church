@@ -104,41 +104,41 @@
                         
                    	</div>
                     <div class="col-md-8 col-sm-7">
-                       	<form method="post" id="contactform" name="contactform" class="contact-form clearfix" action="mail/contact.php">
-                        	<div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" id="fname" name="First Name"  class="form-control input-lg" placeholder="First name*">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" id="lname" name="Last Name"  class="form-control input-lg" placeholder="Last name">
-                                    </div>
-                              	</div>
-                           	</div>
-                        	<div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" id="email" name="email"  class="form-control input-lg" placeholder="Email*">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" id="phone" name="phone" class="form-control input-lg" placeholder="Phone">
-                                    </div>
-                                </div>
-                          	</div>
-                        	<div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea cols="6" rows="7" id="comments" name="comments" class="form-control input-lg" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                          	</div>
-                        	<div class="row">
-                                <div class="col-md-12">
-                                                                <button>
+                       	  <div class="col-md-12">
+                        
+                        
+                       
+                        <form  name="sentMessage" id="landing-form" class="padd-tb-10" novalidate>
+									<div class="row">
+										<div class="control-group form-group col-sm-6">
+											<div class="controls">
+												<label class="sr-only">First Name</label>
+												<input type="text" class="form-control dark" id="fname" placeholder="First Name" required data-validation-required-message="Please enter your name.">
+												<p class="help-block"></p>
+											</div>
+										</div>
+										<div class="control-group form-group col-sm-6">
+											<div class="controls">
+												<label class="sr-only">Last Name</label>
+												<input type="text" class="form-control dark" id="lname" placeholder="Last Name" required data-validation-required-message="Please enter your name.">
+												<p class="help-block"></p>
+											</div>
+										</div>
+									</div>	
+									<div class="control-group form-group">
+										<div class="controls">
+											<label class="sr-only">Email</label>
+											<input type="email" class="form-control dark" id="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
+											<p class="help-block"></p>
+										</div>
+									</div>
+									<div id="success"></div>
+									<div class="padd-t-10">
+									<button type="submit" class="btn btn-success btn-block btn-lg">REGISTER NOW!</button>
+									</div>
+								</form>
+                        
+                         <button>
   <img class="splash" src="images/watersplash_3.svg" alt="Splash!" />
   <img class="splash splash-2" src="images/watersplash_3.svg" alt="Splash!" />
   <img class="sub" src="images/sublogo_16.svg" class="Submarine" />
@@ -150,9 +150,7 @@
     <span class="sent">Sent!</span>
   </span>
 </button>
-                                </div>
-                          	</div>
-                		</form>
+                            
                         <div class="clearfix"></div>
                         <div id="message"></div>
                     </div>

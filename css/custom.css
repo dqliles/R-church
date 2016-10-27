@@ -160,7 +160,13 @@ color: white;
 }
    
 
-
+.emailForm {
+	border:1px solid grey;
+	border-radius:10px;
+	margin-top: 20px;
+}
+form {
+	padding-bottom:20px;	
 
 
 
