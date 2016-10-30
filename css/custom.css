@@ -259,7 +259,34 @@ background-color:white;}
 .bgvideo {
    
     width: 100%;
-   } 
+   }
+   
+   
+   @media(min-width:992px) {
+   
+   
+   .bgvideo {
+   
+    width: 100%;
+   }
+    
+    }
+}
+@media(max-width:992px) {
+    .bgvideo {
+   
+    width: 100%;
+   }
+   
+}
+@media(max-width:1024px) {
+    .bgvideo {
+   
+    width: 100%;
+   }
+    }
+    
+ 
 
 
 /*
