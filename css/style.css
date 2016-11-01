@@ -2027,6 +2027,7 @@ body {
     background: #484848;
     padding: 20px;
     border-bottom: 1px solid #eaeaea;
+    margin-top: -5px;
 }
 
 .upcoming-event-bar h3 {

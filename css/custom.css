@@ -261,8 +261,21 @@ background-color:white;}
     width: 100%;
    }
    
+  
+#bgvideo{
+overlay: red;}
+
    
-    
+ #overlay {
+    position: absolute;
+    top:0px;
+    z-index:1000;
+    min-height: 100%;
+    width: 100%;
+ 
+    background: rgba(0,0,0,0.5);
+   } 
+
 
 
 /*
