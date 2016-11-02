@@ -51,18 +51,16 @@ box-shadow: 0px -4px 12px 4px rgba(0,0,0,1);
   }
  
  .sidebar {
- 	
-    position:fixed;
-    top: 0px;
-    left:0px;
-    overflow-y:scroll;
-    overflow-x:hidden;
- width: 100%;
- height: 100%;
- 
- background:#626262;
- z-index: 0;
- text-align: center;
+ 	position:fixed;
+ 	top: 0px;
+ 	left:0px;
+ 	overflow-y:scroll;
+ 	overflow-x:hidden;
+ 	width: 100%;
+ 	height: 100%;
+ 	background: #2d8139;
+ 	z-index: 0;
+ 	text-align: center;
  }
  
  .sidebar a {
@@ -273,7 +271,7 @@ overlay: red;}
     min-height: 100%;
     width: 100%;
  
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.2);
    } 
 
 
