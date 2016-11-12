@@ -26,93 +26,108 @@
 <!-- SCRIPTS
   ================================================== -->
 <script src="js/modernizr.js"></script><!-- Modernizr -->
+
 </head>
 <body class="home home-style2">
-<!--[if lt IE 7]>
-	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-<![endif]-->
-<div class="body"> 
+
+<input type="checkbox" id="sidebartoggler" name="" value="">
+<label for="sidebartoggler"  class="toggle">☰</label>
+
+<div class="wrap">
+
+<div class="page-content"> 
 	<!-- Start Site Header -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<header class="site-header">
     	
     	<div class="container for-navi">
         	<div class="site-logo">
             <h1>
                 <a href="index.html">
-                    <span class="logo-icon"><i class="fa fa-heart"></i></span>
+                   
                     <span class="logo-text">Adore <span>Church</span></span>
-                    <span class="logo-tagline"></span>
+                  
                 </a>
             </h1>
             </div>
+            
+            
+            
             <!-- Main Navigation -->
-            <nav class="main-navigation" role="navigation">
+             <nav class="main-navigation" role="navigation">
                 <ul class="sf-menu">
-                    <li><a href="index.html">Home</a>
+                   
                   		
-                    <li><a href="javascript:void(0)">About us</a>
-                  		<ul class="dropdown">
-                    		<li><a href="about.html">Overview</a></li>
-                    		<li><a href="new-here.html">New Here?</a></li>
-                    		<li><a href="staff.html">Our Staff</a></li>
-                    		<li><a href="donate.html">Donate now</a></li>
-                   		</ul>
+                    		
+                     		
+                    <li><a href="about.html" >About </a>
+                  		
+                    		
                     </li>
-                    <li><a href="single-sermon.html">Media</a></li>
+                    <li><a href="single-sermon.html">Sermons</a></li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
                             
                     <li><a href="events.html">Events</a></li>
                   		
                
                 	<li><a href="contact.html">Contact</a></li>
+
+                  		
+                   
                 
             </nav>
-            <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
+             <!--<a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>-->
     	</div>
 	</header>
 	<!-- End Site Header -->
-    <!-- Start Hero Slider -->
-    <div class="hero-slider heroflex flexslider clearfix" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="fade" data-speed="7000" data-pause="yes">
+   
+  <div class="hero-slider heroflex flexslider clearfix">
       	<ul class="slides">
-        	<li class="parallax" style="background-image: url(./images/bg.jpg)";>
-            	<div class="flex-caption" data-appear-animation="fadeInRight" data-appear-animation-delay="500">
-                	<strong>Isaiah 30:15</strong>
-                	<p>In repentance and rest is your salvation.</p>
-               	</div>
-            </li>
-        	<li class="parallax" style="background-image:url(./images/bg1.jpg);">
-            	<div class="flex-caption" data-appear-animation="fadeInRight" data-appear-animation-delay="500">
-                	<strong>Isaiah 30:15</strong>
-                	<p>In repentance and rest is your salvation.</p>
-               	</div>
-            </li>
-      	</ul>
-        <canvas id="canvas-animation"></canvas>
-    </div>
+        	
+        	<video autoplay="" loop="" muted="" class="bgvideo" id="bgvideo">
+			<source src="che.mp4" type="video/mp4">
+			 <img src="gif.gif">
+		</video>
+        	
+        	<li class="parallax flex-active-slide" style="background-image: url(gif.gif); width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" ;="">
+            	</ul>
+      	
+		
+		<div id="overlay"></div>
+    </div>  
+   
+  <!-- <video autoplay="" loop="" muted="" class="bgvideo" id="bgvideo">
+			<source src="che.mp4" type="video/mp4">
+		</video>-->
+
     <!-- End Hero Slider -->
     <div class="upcoming-event-bar event-dynamic">
         <div class="container">
             <div class="row">
             	<div class="col-md-5 col-sm-5">
                 	<span class="label label-primary">Upcoming Event</span>
-                	<h3><a href="single-event.html" class="event-title">See Our New Church!!</a></h3>
-                   	<span class="meta-data">On <span class="event-date">21 Sept, 16</span> at <span class="event-time">07:00 PM</span> at</span><span class="meta-data event-location"> <span class="event-location-address">305 East Main Street 399 Fruitland, MD 21826</span></span>
+                	<h3><a href="single-event.html" class="event-title">Welcome To Our New Site!!</a></h3>
+                   	<span class="meta-data">On <span class="event-date">14 November, 16</span> at <span class="event-time">07:00 PM</span> at</span><span class="meta-data event-location"> <span class="event-location-address">305 East Main Street 399 Fruitland, MD 21826</span></span>
                 </div>
                 <div class="col-md-5 col-sm-7">
-                    <div id="counter" class="counter clearfix" data-date="September 21, 2016">
+                    <div id="counter" class="counter clearfix" data-date="November 14, 2016">
                         <div class="timer-col"> <span id="days"></span> <span class="timer-type">Days</span> </div>
                         <div class="timer-col"> <span id="hours"></span> <span class="timer-type">Hours</span> </div>
                         <div class="timer-col"> <span id="minutes"></span> <span class="timer-type">Minutes</span> </div>
                         <div class="timer-col"> <span id="seconds"></span> <span class="timer-type">Seconds</span> </div>
                     </div>
                 </div>
-                <div class="col-md-2 text-align-right">
-                    <ul class="action-buttons">
-                        <li title="Share event"><a href="#" data-trigger="focus" data-placement="top" data-content="" data-toggle="popover" data-original-title="Share Event" class="event-share-link"><i class="icon-share"></i></a></li>
-                        <li title="Get directions" class="hidden-xs"><a href="#" class="cover-overlay-trigger event-direction-link"><i class="icon-compass"></i></a></li>
-                        <li title="Contact event manager"><a href="#" data-toggle="modal" data-target="#Econtact" class="event-contact-link"><i class="icon-mail"></i></a></li>
-                    </ul>
-                    <a href="#" class="btn btn-primary btn-sm event-tickets event-register-button">Register</a>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -129,14 +144,14 @@
                    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra.</p>
                     </div>
                     <div class="col-md-4 col-sm-4 featured-block">
-                        <h3>Church Mission</h3>
+                        <h3>Online Giving</h3>
                         <figure>
-                        	<a href="donate.html"><img src="http://placehold.it/800x500&amp;text=IMAGE+PLACEHOLDER" alt="Our Community"></a>
+                        	<a href="donate.html"><img src="images/give.jpg" alt="Our Community" width="800" height="500"></a>
                     	</figure>
                    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra.</p>
                     </div>
                     <div class="col-md-4 col-sm-4 featured-block">
-                        <h3>Join a Group</h3>
+                        <h3>New Here?</h3>
                         <figure>
                         	<a href="new-here.html"><img src="http://placehold.it/800x500&amp;text=IMAGE+PLACEHOLDER" alt="Our Community"></a>
                     	</figure>
@@ -148,7 +163,7 @@
     </div>
     <!-- Start Body Content -->
   	
-                                   
+                                
     <!-- End Body Content -->
  
     
@@ -157,51 +172,30 @@
        	<div class="container">
     		<div class="site-footer-top">
             	<div class="row">
-                	<div class="col-md-4 widget footer_widget text_widget">
-                        <h4>About our church</h4>
-                        <hr class="sm">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra.</p>
-                    </div>
-                	<div class="col-md-4 widget footer_widget twitter_widget">
-                    	<h4>Twitter feeds</h4>
-                        <hr class="sm">
-                      	<ul class="twitter-widget"></ul>
-            		</div>
-                	<div class="col-md-4 widget footer_widget newsletter_widget">
-                        <h4>News subscription</h4>
-                        <hr class="sm">
-                        <p>Subscribe to our newsletter in order to receive the latest updates and articles!</p>
-                        <div class="input-group">
-                            <span class="input-group-addon">@</span>
-                            <input type="text" class="form-control">
-                            <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">Go!</button>
-                            </span>
-                        </div>
-            		</div>
+                	
                	</div>
         		<!-- Quick Info -->
         		<div class="quick-info">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
-                            <h4><i class="fa fa-clock-o"></i> Service Times</h4>
-                            <p>Sundays @ 10:00 am<br>Starting October 1</p>
+                            <h4><i class="fa fa-clock-o"></i> Saturday Services</h4>
+                            <p>Prayer @ 6:00 - 6:30<br>Worship @ 6:30  </p>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h4><i class="fa fa-map-marker"></i> Our Location</h4>
-                            <p>777, Path to God<br>United States of America</p>
+                            <p>305 East Main Street 399<br>Fruitland, MD 21826</p>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h4><i class="fa fa-envelope"></i> Contact Info</h4>
-                            <p>11 - 00 - 653240<br>email@Rchurch.com</p>
+                            <p>(443) 880 6318<br>info@tryrchurch.com</p>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h4><i class="fa fa-clock-o"></i> Socialize with us</h4>
                             <ul class="social-icons-colored inversed">
-                                <li class="facebook"><a href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                                <li class="vimeo"><a href="http://www.vimeo.com/"><i class="fa fa-vimeo-square"></i></a></li>
-                                <li class="twitter"><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                                <li class="googleplus"><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="facebook"><a href="https://www.facebook.com/groups/1670801793234898/"><i class="fa fa-facebook"></i></a></li>
+                            
+                                	<!--<li class="twitter"><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>-->
+                            
                             </ul>
                         </div>
                     </div>
@@ -230,6 +224,33 @@
   	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>  
 </div>
 <!-- Event Directions Popup -->
+<div class="sidebar">
+				
+                    
+                  		
+                    <li><a href="about.html" class="one">About </a>
+                  		
+                    		
+                    </li>
+                    <li><a href="single-sermon.html">Sermons</a></li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                            
+                    <li><a href="events.html">Events</a></li>
+                  		
+               
+                	<li><a href="contact.html">Contact</a></li>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
 <div class="quick-info-overlay">
 	<div class="quick-info-overlay-left accent-bg">
         <a href="#" class="btn-close"><i class="icon-delete"></i></a>
