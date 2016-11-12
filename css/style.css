@@ -2150,7 +2150,7 @@ body {
     height: 60px;
     line-height: 53px;
     font-weight: 700;
-    color: #f8f8f8;
+    color: #fcfcfc;
     font-size: 16px;
     text-align: center;
 }
@@ -2163,7 +2163,7 @@ body {
 }
 
 .timer-col {
-    color: white;
+    color: #fbfbfb;
 }
 
 .upcoming-event-footer {
