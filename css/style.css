@@ -2024,7 +2024,7 @@ body {
 }
 
 .upcoming-event-bar {
-    background: #484848;
+    background: #3e3e3e;
     padding: 20px;
     border-bottom: 1px solid #eaeaea;
     margin-top: -5px;
@@ -2724,7 +2724,7 @@ ul.blog-classic-listing strong.post-title {
     z-index: 11;
     padding: 25px 0 20px;
     text-align: center;
-    background: #484848;
+    background: #3e3e3e;
     margin-top: 20px;
     border: 1px solid #e4e4e3;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
