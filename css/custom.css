@@ -290,7 +290,19 @@ background-color:white;}
 	font-weight: 300;
 	}
 
+.new {
+	color: #3e3e3e;
+	-webkit-font-smoothing: antialiased;
+	font-family: Montserrat,sans-serif;
+	font-size: 23px;
+	font-weight: 300;
+}	
 
+#rest{
+font-weight: 400;
+}
+footer p {color: #39b54a;}
+	
 /*
 .video-bg {
     position: fixed;

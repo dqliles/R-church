@@ -144,6 +144,8 @@ strong, .strong {
 
 p {
     margin: 0 0 20px;
+    font-family: Montserrat,sans-serif;
+    color: #3e3e3e;
 }
 
 i, em, .italic {
