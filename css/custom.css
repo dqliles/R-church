@@ -298,6 +298,16 @@ background-color:white;}
 	font-weight: 300;
 	color: #3e3e3e;
 }
+.my-sph3 {
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	font-family: Montserrat,sans-serif;
+	letter-spacing: .11142857142857em;
+	font-size: 21px;
+	font-weight: 300;
+	color: #ffffff;
+}
 
 .event-title{
 	font-family: Montserrat,sans-serif;
@@ -318,6 +328,95 @@ background-color:white;}
 font-weight: 400;
 }
 footer p {color: #39b54a;}
+
+.footlink {
+	color: #39b54a;
+	}
+	
+	.foot p {
+		font-size: 50;
+	}
+	
+	.quick-info p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    
+}	
+
+
+.lil-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+     /* background-color: rgba(62, 62, 62, 0.83); */
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+	text-transform: uppercase;
+	font-family: Montserrat,sans-serif;
+	letter-spacing: .11142857142857em;
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.lil-banner>* {
+    padding: 0 15px;
+    display: inline-block;
+    margin: 5px 0
+}
+
+.lil-banner__title {
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+mybtn {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.button {
+	box-shadow: none;
+	text-decoration: none;
+	display: inline-block;
+	padding: 6px 7px;
+	border: 1px solid #ffffff;
+	float: none;
+	font-size: 14px;
+	font-family: Montserrat,sans-serif;
+	letter-spacing: .11142857142857em;
+	color: #f8f8f8;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	margin-top:10px;
+	}	
+	
+	 a.button:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #f8f8f8;
+}  
+
 	
 /*
 .video-bg {

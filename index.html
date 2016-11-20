@@ -89,6 +89,7 @@
             </nav>
              <!--<a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>-->
     	</div>
+    	
 	</header>
 	<!-- End Site Header -->
    
@@ -104,7 +105,11 @@
             	</ul>
       	
 		
-		<div id="overlay"></div>
+		<div id="overlay"> <div class="lil-banner">
+                	<h3 class="my-sph3" class="lil-banner__title">WE'RE WAITING TO HEAR FROM YOU</h3>
+                	<div><a class="button" <a href="" target="">CONTACT US</a></div>
+                	</div></div>
+		
     </div>
    
   <!-- <video autoplay="" loop="" muted="" class="bgvideo" id="bgvideo">
@@ -113,33 +118,7 @@
 
     <!-- End Hero Slider -->
     <!-- End Hero Slider -->
-   <div class="upcoming-event-bar event-dynamic">
-        <div class="container">
-            <div class="row">
-            	<div class="col-md-5 col-sm-5">
-                	<span class="label label-primary">Upcoming Event</span>
-                	<h3 class="event-title" >Welcome To Our New Site!!</h3>
-                   	<span class="meta-data">On <span class="event-date">14 Nov, 16</span> at <span class="event-time">07:00 PM</span> at</span><span class="meta-data event-location"> <span class="event-location-address">305 East Main Street 399  Fruitland, MD 21826</span></span>
-                </div>
-                <div class="col-md-5 col-sm-7">
-                    <div id="counter" class="counter clearfix" data-date="November 14, 2016" style="opacity: 0.5;">
-                        <div class="timer-col"> <span id="days">0</span> <span class="timer-type">Days</span> </div>
-                        <div class="timer-col"> <span id="hours">00</span> <span class="timer-type">Hours</span> </div>
-                        <div class="timer-col"> <span id="minutes">00</span> <span class="timer-type">Minutes</span> </div>
-                        <div class="timer-col"> <span id="seconds">00</span> <span class="timer-type">Seconds</span> </div>
-                    </div>
-                </div>
-                <div class="col-md-2 text-align-right">
-                   <!--  <ul class="action-buttons">
-                        <li title="Share event"><a href="#" data-trigger="focus" data-placement="top" data-content="<ul class=&quot;social-icons-colored inverted&quot;><li class=&quot;facebook&quot;><a href=&quot;https://www.facebook.com/sharer/sharer.php?u=single-event.html&quot; target=&quot;_blank&quot;><i class=&quot;fa fa-facebook&quot;></i></a></li><li class=&quot;twitter&quot;><a href=&quot;https://twitter.com/home?status=Event%20happening%20at%20Adore%20Church%20single-event.html&quot; target=&quot;_blank&quot;><i class=&quot;fa fa-twitter&quot;></i></a></li><li class=&quot;googleplus&quot;><a href=&quot;https://plus.google.com/share?url=single-event.html&quot; target=&quot;_blank&quot;><i class=&quot;fa fa-google-plus&quot;></i></a></li></ul>" data-toggle="popover" data-original-title="Share Event" class="event-share-link"><i class="icon-share"></i></a></li>
-                        <li title="Get directions" class="hidden-xs"><a href="#" class="cover-overlay-trigger event-direction-link"><i class="icon-compass"></i></a></li>
-                        <li title="Contact event manager"><a href="#" data-toggle="modal" data-target="#Econtact" class="event-contact-link"><i class="icon-mail"></i></a></li>
-                    </ul>
-                    <a href="#" class="btn btn-primary btn-sm event-tickets event-register-button">Register</a>-->
-                </div>
-            </div>
-        </div>
-    </div>
+  	
     
    
     
@@ -202,7 +181,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h4><i class="fa fa-envelope"></i> Contact Info</h4>
-                            <p>(443) 880 6318<br>info@tryrchurch.com</p>
+                            <p>(443) 880 6318<br><a href="mailto:dqliles@gmail.com" class="footlink">info@tryrchurch.com</a></p>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h4><i class="fa fa-clock-o"></i> Socialize with us</h4>
@@ -379,7 +358,30 @@
         </div>
    	</div>
 </div>
-<script src="js/jquery-2.0.0.min.js"></script> <!-- Jquery Library Call -->
+<!--<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>--> <!-- Jquery Library Call-->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
 <script src="vendor/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin -->
 <script src="js/helper-plugins.js"></script> <!-- Helper Plugins -->
 <script src="js/bootstrap.js"></script> <!-- UI -->
